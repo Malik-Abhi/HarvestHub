@@ -1,3 +1,6 @@
+.orders-page {
+    padding: 16px;
+}
 .order-history {
     margin-top: 32px;
     background: #fff;
@@ -24,4 +27,11 @@
 .order-card .order-items {
     font-size: 0.98rem;
     color: #555;
+}
+
+@media (max-width: 768px) {
+    .order-card {
+        padding: 15px;
+        margin: 15px;
+    }
 }

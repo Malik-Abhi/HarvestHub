@@ -1,14 +1,36 @@
 .cart-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 2rem;
-    padding: 2rem;
-    background: #111;
-    min-height: 100vh;
-    color: #fff;
-    font-family: 'Segoe UI', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 2rem;
+  background: #111;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
 }
 
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .cart-container {
+    grid-template-columns: 1fr;
+
+  }
+
+  .cart-summary {
+    position: static !important;
+    /* remove sticky on mobile */
+    margin-bottom: 1.5rem;
+  }
+
+  .items-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .checkout-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
 .glass-card {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;

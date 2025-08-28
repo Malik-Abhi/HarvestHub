@@ -1,4 +1,4 @@
-const API_URL = 'https://harvesthub-hyge.onrender.com/';
+const API_URL = 'https://harvesthub-hyge.onrender.com/api';
 
 // Reusable API call function
 const apiRequest = async (endpoint, method = 'GET', body = null, token = null) => {

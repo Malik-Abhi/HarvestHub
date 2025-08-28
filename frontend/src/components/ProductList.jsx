@@ -8,7 +8,6 @@ const ProductList = ({ products }) => {
     const { user } = useStore();
 
     const handleAddToCart = async () => {
-        console.log("Adding to cart:", user);
         if (!user?.token) {
             alert("Please login to add to cart!");
             return;

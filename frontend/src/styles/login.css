@@ -92,3 +92,10 @@ button:hover {
     text-decoration: underline;
     color: #2575fc;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    form {
+        width: 280px !important;
+    }
+}
