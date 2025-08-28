@@ -1,0 +1,116 @@
+.cart-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 2rem;
+    background: #111;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 1.5rem;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.checkout-btn,
+.browse-btn,
+.remove-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.checkout-btn:hover,
+.browse-btn:hover,
+.remove-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.01);
+}
+
+.cart-items h1 {
+    margin-bottom: 1rem;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.cart-summary {
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.cart-summary h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #444, #666);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkout-btn:hover {
+  background: linear-gradient(135deg, #666, #888);
+}

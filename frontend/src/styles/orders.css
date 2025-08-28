@@ -1,0 +1,27 @@
+.order-history {
+    margin-top: 32px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.order-card {
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+}
+
+.order-card:last-child {
+    border-bottom: none;
+}
+
+.order-card h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.order-card .order-items {
+    font-size: 0.98rem;
+    color: #555;
+}
