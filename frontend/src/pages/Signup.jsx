@@ -43,7 +43,7 @@ const Signup = () => {
             {error && <p className="error">{error}</p>}
             {success && <p className="success">{success}</p>}
 
-            <form onSubmit={handleSubmit}>
+            <form className="auth-form"  onSubmit={handleSubmit}>
                 <div>
                     <label>Name:</label>
                     <input
