@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background: radial-gradient(circle at top left, #1e1e1e, #0d0d0d);
 }
 
