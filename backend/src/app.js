@@ -12,7 +12,8 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://harvesthub-hyge.onrender.com"
+  "https://harvesthub-hyge.onrender.com",
+  "https://harvest-hub-rosy.vercel.app/"
 ];
 
 const corsOptions = {
