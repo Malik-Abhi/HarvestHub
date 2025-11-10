@@ -26,7 +26,7 @@ const ProductDetail = () => {
             <h1>{product.name}</h1>
             <img src={product.image} alt={product.name} />
             <p>{product.description}</p>
-            <p>Price: ${product.price}</p>
+            <p>Price: ₹{product.price}</p>
             <button>Add to Cart</button>
         </div>
     );

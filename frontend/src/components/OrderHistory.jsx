@@ -24,7 +24,7 @@ const OrderHistory = () => {
                     {orders.map(order => (
                         <li key={order._id}>
                             <h3>Order ID: {order._id}</h3>
-                            <p>Total Amount: ${order.totalAmount}</p>
+                            <p>Total Amount: ₹{order.totalAmount}</p>
                             <p>Address: {order.address}</p>
                             <p>Ordered on: {new Date(order.createdAt).toLocaleDateString()}</p>
                         </li>

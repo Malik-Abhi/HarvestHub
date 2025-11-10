@@ -1,4 +1,4 @@
-const API_URL = 'https://harvesthub-hyge.onrender.com/api';
+const API_URL = 'http://localhost:8000/api';
 
 // Reusable API call function
 const apiRequest = async (endpoint, method = 'GET', body = null, token = null) => {
